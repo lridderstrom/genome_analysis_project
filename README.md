@@ -1,1 +1,1 @@
-# genome_analysis_project
+#Project plan
