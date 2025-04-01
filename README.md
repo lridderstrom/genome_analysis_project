@@ -10,10 +10,15 @@ The aim of the project is to perform a metagenome assembly and find out what bac
 which order? Which softwares will you use? Are there any time bottlenecks? If so,
 can you identify any analyses that will require longer times?
 
-- trim data
-- Metagenome assembly
-- binning
-- 
+Reads preprocessing: trimming + quality check (before and
+after).
+● Metagenome assembly.
+● Binning.
+● Quality check of assembly and bins.
+● Basic phylogenetic placement of bins (Taxonomic ID).
+● Functional annotation.
+● Analysis of activity (expression level) of different bins.
+ 
 
 ● What is the time frame for your project? Can you define some time checkpoints for
 when you should have finished certain analyses? When do you need to have finished
