@@ -1,6 +1,6 @@
 Project plan
 
-
+:)
 ● What is the aim of your project? What question(s) do you want to answer with your
 research?
 
