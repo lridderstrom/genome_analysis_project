@@ -32,39 +32,18 @@ This table shows the data
 
 Reads preprocessing: trimming + quality check (before and after). ● Metagenome assembly. ● Binning. ● Quality check of assembly and bins. ● Basic phylogenetic placement of bins (Taxonomic ID). ● Functional annotation. ● Analysis of activity (expression level) of different bins.
 
+![image](https://github.com/user-attachments/assets/2e759c38-7486-4691-b40e-c469a4062a71)
+
+
 ● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished running all the softwares so you can start to analyse the data?
 
 presentation 28 May
+
 ● What types of data will you be handling? How much space do you need in order to store the data? (You might not know that in advance, but pay attention to this as you work and manage your available space!)
 
 ● How will you organise your data? (see “Project Organization”)
 
-![image](https://github.com/user-attachments/assets/cff89b5d-d082-4ea8-8348-bb6be5b675a1)
-
-
-
-- analyses
-  - dna
-    - 01_preprocessing
-      - fastqc_trim
-    - 02_metagenome_assembly
-    - 03_binning
-    - 04_annotation
-    - 05_phylogenetic_placement
-  - rna
-    - 01_preprocessing_rna
-      - fastqc_raw
-      - fastqc_trim
-      - trimming_software
-    - 02_mapping
-    - 03_read_counting
-    - 04_expression_analysis
-- code
-- data
-  - metadata
-  - raw_data
-  - trimmed_data
-- README.md
+![image](https://github.com/user-attachments/assets/7342b0fb-26f5-4aec-8142-fffcab7d5618)
 
 
 17 directories, 2 files
