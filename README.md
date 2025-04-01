@@ -39,28 +39,8 @@ presentation 28 May
 
 ● How will you organise your data? (see “Project Organization”)
 
+![image](https://github.com/user-attachments/assets/cff89b5d-d082-4ea8-8348-bb6be5b675a1)
 
-.
-├── analyses
-│   ├── dna
-│   │ 
-├── 01_preprocessing
-│   │   ├── 02_metagenome_assembly
-│   │   ├── 03_binning
-│   │   ├── 04_annotation
-│   │   └── 05_phylogenetic_placement
-│   └── rna
-│       ├── 01_preprocessing_rna
-│       ├── 02_mapping
-│       ├── 03_read_counting
-│       └── 04_expression_analysis
-├── code
-├── data
-│   ├── metadata
-│   ├── raw_data
-│   └── trimmed_data
-├── README.md
-└── SraRunTable.csv
 
 
 - analyses
