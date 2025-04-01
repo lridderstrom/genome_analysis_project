@@ -59,42 +59,4 @@ work and manage your available space!)
 
 ● How will you organise your data? (see “Project Organization”)
 
-##
->>>>>>> fa77df1ee3fd7e893cfc12ef8d31f85ada569437
-.
-├── analyses
-│   ├── dna
-│   │   ├── 01_preprocessing
-<<<<<<< HEAD
-=======
-│   │   │   └── fastqc_trim
->>>>>>> fa77df1ee3fd7e893cfc12ef8d31f85ada569437
-│   │   ├── 02_metagenome_assembly
-│   │   ├── 03_binning
-│   │   ├── 04_annotation
-│   │   └── 05_phylogenetic_placement
-│   └── rna
-│       ├── 01_preprocessing_rna
-<<<<<<< HEAD
-=======
-│       │   ├── fastqc_raw
-│       │   ├── fastqc_trim
-│       │   └── trimming_software
->>>>>>> fa77df1ee3fd7e893cfc12ef8d31f85ada569437
-│       ├── 02_mapping
-│       ├── 03_read_counting
-│       └── 04_expression_analysis
-├── code
-├── data
-│   ├── metadata
-│   ├── raw_data
-│   └── trimmed_data
-└── README.md
-<<<<<<< HEAD
 
-17 directories, 1 file
-=======
-##
-
-
->>>>>>> fa77df1ee3fd7e893cfc12ef8d31f85ada569437
