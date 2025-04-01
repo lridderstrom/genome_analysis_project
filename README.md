@@ -1,10 +1,34 @@
 Project plan
 
-:)
-● What is the aim of your project? What question(s) do you want to answer with your
-research?
+Project goal:
 
 The aim of the project is to perform a metagenome assembly and find out what bacteria there are in two different environments and their gene expression. 
+
+Table of data: 
+
+This table shows the data
+
+ (dissolved oxygen [DO] below 2 mg/l ~ 62.5 mikro mol/kg)
+
+
+| Data | Sample       | DNA/RNA | Dissolved oxygen level (mg/l) | Tool     |
+|------|-------------|---------|-------------------------------|----------|
+| WGS  | SAMN05791315 | DNA     | High (4,12)                     | Illumina |
+| WGS  | SAMN05791316 | DNA     | Low (0,33)                      | Illumina |
+| WGS  | SAMN05791317 | DNA     | Low (0,4)                       | Illumina |
+| WGS  | SAMN05791318 | DNA     | High (2,64)                     | Illumina |
+| WGS  | SAMN05791319 | DNA     | Low (0,07)                      | Illumina |
+| WGS  | SAMN05791320 | DNA     | Low (0,31)                      | Illumina |
+| WGS  | SAMN05791321 | RNA     | High (4,12)                     | Illumina |
+| WGS  | SAMN05791322 | RNA     | Low (0,33)                      | Illumina |
+| WGS  | SAMN05791323 | RNA     | Low (0,4)                       | Illumina |
+| WGS  | SAMN05791324 | RNA     | High (2,64)                     | Illumina |
+| WGS  | SAMN05791325 | RNA     | Low (0,07)                      | Illumina |
+| WGS  | SAMN05791326 | RNA     | Low (0,31)                      | Illumina |
+
+
+
+
 
 ● What type of analyses will you perform in order to answer these questions? And in
 which order? Which softwares will you use? Are there any time bottlenecks? If so,
