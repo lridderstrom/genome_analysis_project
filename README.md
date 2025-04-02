@@ -10,7 +10,7 @@ This table shows the data
 
 (dissolved oxygen [DO] below 2 mg/l ~ 62.5 mikro mol/kg)
 
-| data | sample       | DNA/RNA | dissolved oxygen level (mg/l) | tool     |
+| Data | Sample       | DNA/RNA | Dissolved oxygen level (mg/l) | Tool     |
 |------|-------------|---------|-------------------------------|----------|
 | WGS  | SAMN05791315 | DNA     | High 4,12                     | Illumina |
 | WGS  | SAMN05791316 | DNA     | low 0,33                      | Illumina |
