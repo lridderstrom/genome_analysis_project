@@ -4,35 +4,39 @@ Project goal:
 
 The aim of the project is to perform a metagenome assembly and find out what bacteria there are in two different environments and their gene expression.
 
-Table of data:
+(dissolved oxygen [DO] below 2 mg/l ~ 62.5 mikro mol/kg) = hypoxia
 
-This table shows the data
-
-(dissolved oxygen [DO] below 2 mg/l ~ 62.5 mikro mol/kg)
+Data used in the project: 
 
 | Data | Sample       | DNA/RNA | Dissolved oxygen level (mg/l) | Tool     |
 |------|-------------|---------|-------------------------------|----------|
-| WGS  | SAMN05791315 | DNA     | High 4,12                     | Illumina |
-| WGS  | SAMN05791316 | DNA     | low 0,33                      | Illumina |
-| WGS  | SAMN05791317 | DNA     | low 0,4                       | Illumina |
-| WGS  | SAMN05791318 | DNA     | high 2,64                     | Illumina |
-| WGS  | SAMN05791319 | DNA     | low 0,07                      | Illumina |
-| WGS  | SAMN05791320 | DNA     | low 0,31                      | Illumina |
-| WGS  | SAMN05791321 | RNA     | high 4,12                     | Illumina |
-| WGS  | SAMN05791322 | RNA     | low 0,33                      | Illumina |
-| WGS  | SAMN05791323 | RNA     | low 0,4                       | Illumina |
-| WGS  | SAMN05791324 | RNA     | high 2,64                     | Illumina |
-| WGS  | SAMN05791325 | RNA     | low 0,07                      | Illumina |
-| WGS  | SAMN05791326 | RNA     | low 0,31                      | Illumina |
+| WGS  | SAMN05791315 | DNA     | High (4,12)                     | Illumina |
+| WGS  | SAMN05791316 | DNA     | Low (0,33)                      | Illumina |
+| WGS  | SAMN05791317 | DNA     | Low (0,4)                       | Illumina |
+| WGS  | SAMN05791318 | DNA     | High (2,64)                     | Illumina |
+| WGS  | SAMN05791319 | DNA     | Low (0,07)                      | Illumina |
+| WGS  | SAMN05791320 | DNA     | Low (0,31)                      | Illumina |
+| WGS  | SAMN05791321 | RNA     | High (4,12)                     | Illumina |
+| WGS  | SAMN05791322 | RNA     | Low (0,33)                      | Illumina |
+| WGS  | SAMN05791323 | RNA     | Low (0,4)                       | Illumina |
+| WGS  | SAMN05791324 | RNA     | High (2,64)                     | Illumina |
+| WGS  | SAMN05791325 | RNA     | Low (0,07)                      | Illumina |
+| WGS  | SAMN05791326 | RNA     | Low (0,31)                      | Illumina |
 
+Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. 
 
+Analyses workflow: 
 
+To perform this analysis, I will first check the quality of the reads with FastQC. Then I will trim the raw RNA data using trimmomatic, but not the raw DNA data since that has already been trimmed. After trimming the raw RNA data I will once more check the quality with FastQC. I will then perform the metagenomic assembly of the DNA with Megahit and evaluate the results with QUAST. Then, I will do binning of the assembly by using Metabat and evaluate the results with CheckM. During the evaluation of the binning results, I will also perform annotation with Prokka since my data comes from bacterial DNA. Afterwards, I plan to map the RNA reads to the bins by using the software BWA. When the mapping is done, I will do a read counting with HTseq. Finally, I plan to do a phylogenetic placement as well as an expression analysis using GTDB-Tk and DEseq2 to find out what bacteria there were in the hypoxic vs non hypoxic environments and their gene expressions. See figure 1 for a workflow of the analysis. 
 
-● What type of analyses will you perform in order to answer these questions? And in which order? Which softwares will you use? Are there any time bottlenecks? If so, can you identify any analyses that will require longer times?
-
-Reads preprocessing: trimming + quality check (before and after). ● Metagenome assembly. ● Binning. ● Quality check of assembly and bins. ● Basic phylogenetic placement of bins (Taxonomic ID). ● Functional annotation. ● Analysis of activity (expression level) of different bins.
+Some of these analyses will take several hours to perform, for example the metagenome assembly which is expected to take 6 hours. Therefore, I have made a time plan (see section Time plan, table 2) to keep track of deadlines and how much time I have/need for each step in the project. 
 
 ![image](https://github.com/user-attachments/assets/2e759c38-7486-4691-b40e-c469a4062a71)
+
+Figure 1. Analyses workflow for the project. 
+
+Time plan:
+
 
 
 ● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished running all the softwares so you can start to analyse the data?
