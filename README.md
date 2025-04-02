@@ -23,7 +23,7 @@ Data used in the project:
 | WGS  | SAMN05791325 | RNA     | Low (0,07)                      | Illumina |
 | WGS  | SAMN05791326 | RNA     | Low (0,31)                      | Illumina |
 
-Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. 
+Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. Hypoxia (= low oxygen level) occurs when DO < 2 mg/l.
 
 Analyses workflow: 
 
@@ -37,9 +37,7 @@ Figure 1. Analyses workflow for the project.
 
 Time plan:
 
-
-
-● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished running all the softwares so you can start to analyse the data?
+Since this project is going on for almost the whole course, I have made a time plan (see table 2) to keep track of deadlines and how long each step of the analysis is expected to take to make sure I don't miss any important deadlines and will be able to finsih the project in time. This table will continue to be updated throughout the course of the project when progress with the analysis and its different steps has been made. 
 
 | Day  | Hours | Process                                    | Status     | Data Type        | Software          | Estimated time              |
 |------|-------|-------------------------------------------|------------|------------------|-------------------|-----------------------------|
@@ -59,12 +57,14 @@ Time plan:
 | 23/5 |       | Wiki                                    |            |                  | Github            | 10 h                         |
 | 28/5 |       | Project presentation                   |            |                  |                   | 10 h (15 min for presenting + questions) |
 
+Table 2. Time plan of the project. 
 
-● What types of data will you be handling? How much space do you need in order to store the data? (You might not know that in advance, but pay attention to this as you work and manage your available space!)
+Data management plan:
 
-● How will you organise your data? (see “Project Organization”)
+Since I will handle a lot of data during this project, I have made a data management plan (see figure 2). I will follow this plan when I sort my files that will be created during the course of the project. I will also name my files according to the folders and subfolders they are placed in. I also plan to keep track of how much storage I have left to utilize so I do not cross the limit. Since the files with the raw data are very large, I plan to create soft links to each of them as well as rename them so it is clear what data the files contain. 
 
 ![image](https://github.com/user-attachments/assets/7342b0fb-26f5-4aec-8142-fffcab7d5618)
 
+Figure 2. Data managment plan in tree form. 
 
 17 directories, 2 files
