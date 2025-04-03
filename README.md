@@ -21,7 +21,7 @@ Data used in the project:
 | WGS  | SAMN05791325 | RNA     | Low (0,07)                      | Illumina |
 | WGS  | SAMN05791326 | RNA     | Low (0,31)                      | Illumina |
 
-Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. Hypoxia (= low oxygen level) occurs when DO < 2 mg/l.
+Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. Hypoxia occurs when DO < 2 mg/l.
 
 Analyses workflow: 
 
