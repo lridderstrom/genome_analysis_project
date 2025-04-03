@@ -2,9 +2,7 @@ Project plan
 
 Project goal:
 
-The aim of the project is to perform a metagenome assembly and find out what bacteria there are in two different environments and their gene expression.
-
-(dissolved oxygen [DO] below 2 mg/l ~ 62.5 mikro mol/kg) = hypoxia
+In the paper I am basing this project on, the reserahcers studied the metabolic roles and pathways of different bacteria that grow in dead zones (areas with low to no oxygen). In this project, I am therefore going to perform a metagenome assembly with data from their research and compare gene expression of bacteria growing in hypoxic environments and low oxygen environments. Hypoxia occurs when the dissolved oxygen (DO) level is equal to or below 2 mg/l. To do this analysis, I am going to use a number of softwares to help me analyze the data. I am going to perform binning and annotation to be able to tell what bacteria there were in the two environments and then I am going to do a gene expression analysis to find out more about the function of the genes. Therefore, the goal of the project is to perform a metagenome assembly with a subset of the data the scientists used in the research and try to some extent recreate the results the researchers got in the study.  
 
 Data used in the project: 
 
