@@ -64,5 +64,3 @@ Since I will handle a lot of data during this project, I have made a data manage
 ![image](https://github.com/user-attachments/assets/7342b0fb-26f5-4aec-8142-fffcab7d5618)
 
 Figure 2. Data management plan in tree form. 
-
-17 directories, 2 files
