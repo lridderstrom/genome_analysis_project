@@ -42,8 +42,8 @@ Since this project is going on for almost the whole course, I have made a time p
 | 28/3 | 2     | Seminar                                   | Completed  |                  |                   | 2 h                         |
 | 1/4  | 4     | Github workshop                          | Completed  |                  | Github            | 4 h                         |
 | 3/4  |       | Project plan                             | Ongoing    |                  | Github            | 6 h                         |
-| 4/4  |       | Quality check                            |            | Illumina         | FastQC            | ~15 min                     |
-| 4/4  |       | RNA reads preprocessing and post quality check |        | Illumina         | Trimmomatic, FastQC | ~15 min/sample ~15 min  |
+| 7/4  |       | Quality check                            |            | Illumina         | FastQC            | ~15 min                     |
+| 7/4  |       | RNA reads preprocessing and post quality check |        | Illumina         | Trimmomatic, FastQC | ~15 min/sample ~15 min  |
 | 7/4  |       | Metagenome assembly                     |            | Metagenomics     | Megahit           | ~6 h (2 cores)              |
 | 8/4  |       | Evaluation of metagenome assembly       |            | Fasta            | QUAST             | ~45 min (2 cores)           |
 | 25/4 |       | Binning                                  |            | Metagenomics     | Metabat           | < 30 min (2 cores)          |
