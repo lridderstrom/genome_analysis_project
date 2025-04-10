@@ -2,30 +2,22 @@ Project plan
 
 Project goal:
 
-In the paper I am basing this project on, the researchers studied the metabolic roles and pathways of different bacteria that grow in dead zones (areas with low to no oxygen). In this project, I am therefore going to perform a metagenome assembly with data from their research and compare gene expression of bacteria growing in hypoxic environments and low oxygen environments. Hypoxia occurs when the dissolved oxygen (DO) level is equal to or below 2 mg/l. To do this analysis, I am going to use a number of softwares to help me analyze the data. I am going to perform binning and annotation to be able to tell what bacteria there were in the two environments and then I am going to do a gene expression analysis to find out more about the function of the genes. Therefore, the goal of the project is to perform a metagenome assembly with a subset of the data the scientists used in the research and try to some extent recreate the results the researchers got in the study.  
+In the paper I am basing this project on, the researchers studied the metabolic roles and pathways of different bacteria that grow in dead zones (areas with low to no oxygen). In this project, I am therefore going to perform a metagenome assembly with data from their research and compare gene expression of bacteria growing in hypoxic environments and low oxygen environments. Hypoxia occurs when the dissolved oxygen (DO) level is equal to or below 2 mg/l. To do this analysis, I am going to use a number of softwares to help me analyze the data. I am going to perform binning on the assembled metagenome and do a phylogenetic placement analysis to be able to tell what bacteria there were in the two environments. I am also going to do a gene expression analysis using annotation to determine which parts of the genome are actual genes and find out more about the function of the genes. Therefore, the goal of the project is to perform a metagenome assembly with a subset of the data the scientists used in the research and try to some extent recreate the results the researchers got in the study.  
 
 Data used in the project: 
 
 | Data | Sample       | DNA/RNA | Dissolved oxygen level (mg/l) | Tool     |
 |------|-------------|---------|-------------------------------|----------|
 | WGS  | SAMN05791315 | DNA     | High (4,12)                     | Illumina |
-| WGS  | SAMN05791316 | DNA     | Low (0,33)                      | Illumina |
 | WGS  | SAMN05791317 | DNA     | Low (0,4)                       | Illumina |
-| WGS  | SAMN05791318 | DNA     | High (2,64)                     | Illumina |
-| WGS  | SAMN05791319 | DNA     | Low (0,07)                      | Illumina |
-| WGS  | SAMN05791320 | DNA     | Low (0,31)                      | Illumina |
 | WGS  | SAMN05791321 | RNA     | High (4,12)                     | Illumina |
-| WGS  | SAMN05791322 | RNA     | Low (0,33)                      | Illumina |
 | WGS  | SAMN05791323 | RNA     | Low (0,4)                       | Illumina |
-| WGS  | SAMN05791324 | RNA     | High (2,64)                     | Illumina |
-| WGS  | SAMN05791325 | RNA     | Low (0,07)                      | Illumina |
-| WGS  | SAMN05791326 | RNA     | Low (0,31)                      | Illumina |
 
 Table 1. This table shows important parts of the metadata such as sample name, if the data is DNA or RNA sequences and what levels of dissolved oxygen the samples were acquired from. Hypoxia occurs when DO < 2 mg/l.
 
 Analyses workflow: 
 
-To perform this analysis, I will first check the quality of the reads with FastQC. Then I will trim the raw RNA data using trimmomatic, but not the raw DNA data since that has already been trimmed. After trimming the raw RNA data I will once more check the quality with FastQC. I will then perform the metagenomic assembly of the DNA with Megahit and evaluate the results with QUAST. Then, I will do binning of the assembly by using Metabat and evaluate the results with CheckM. During the evaluation of the binning results, I will also perform annotation with Prokka since my data comes from bacterial DNA. Afterwards, I plan to map the RNA reads to the bins by using the software BWA. When the mapping is done, I will do a read counting with HTseq. Finally, I plan to do a phylogenetic placement as well as an expression analysis using GTDB-Tk and DEseq2 to find out what bacteria there were in the hypoxic vs non hypoxic environments and their gene expressions. See figure 1 for a workflow of the analysis. 
+To perform this analysis, I will first check the quality of the reads with FastQC. Then I will trim the raw RNA data using trimmomatic, but not the raw DNA data since that has already been trimmed. After trimming the raw RNA data I will once more check the quality with FastQC. I will then perform the metagenomic assembly of the DNA with Megahit and evaluate the results with QUAST. Then, I will do binning of the assembly by using Metabat and evaluate the results with CheckM. During the evaluation of the binning results, I will also perform annotation with Prokka since my data comes from bacterial DNA. Afterwards, I plan to map the RNA reads to the bins by using the software BWA. When the mapping is done, I will do a read counting with HTseq. Finally, I plan to do a phylogenetic placement as well as an expression analysis using GTDB-Tk to find out what bacteria there were in the hypoxic vs non hypoxic environments and their gene expressions. See figure 1 for a workflow of the analysis. 
 
 Some of these analyses will take several hours to perform, for example the metagenome assembly which is expected to take 6 hours. Therefore, I have made a time plan (see section Time plan, table 2) to keep track of deadlines and how much time I have/need for each step in the project. 
 
@@ -41,11 +33,11 @@ Since this project is going on for almost the whole course, I have made a time p
 |------|-------|-------------------------------------------|------------|------------------|-------------------|-----------------------------|
 | 28/3 | 2     | Seminar                                   | Completed  |                  |                   | 2 h                         |
 | 1/4  | 4     | Github workshop                          | Completed  |                  | Github            | 4 h                         |
-| 3/4  |       | Project plan                             | Ongoing    |                  | Github            | 6 h                         |
-| 7/4  |       | Quality check                            |            | Illumina         | FastQC            | ~15 min                     |
-| 7/4  |       | RNA reads preprocessing and post quality check |        | Illumina         | Trimmomatic, FastQC | ~15 min/sample ~15 min  |
-| 7/4  |       | Metagenome assembly                     |            | Metagenomics     | Megahit           | ~6 h (2 cores)              |
-| 8/4  |       | Evaluation of metagenome assembly       |            | Fasta            | QUAST             | ~45 min (2 cores)           |
+| 3/4  | 7      | Project plan                             | Completed  |                  | Github            | 6 h                         |
+| 7/4  | 3     | Quality check                            | Completed     | Illumina         | FastQC            | ~15 min                     |
+| 7/4  | 2      | RNA reads preprocessing and post quality check |Completed        | Illumina         | Trimmomatic, FastQC | ~15 min/sample ~15 min  |
+| 10/4  |       | Metagenome assembly                     | Ongoing           | Metagenomics     | Megahit           | ~6 h (2 cores)              |
+| 11/4  |       | Evaluation of metagenome assembly       |            | Fasta            | QUAST             | ~45 min (2 cores)           |
 | 25/4 |       | Binning                                  |            | Metagenomics     | Metabat           | < 30 min (2 cores)          |
 | 28/4 |       | Bin quality evaluation and annotation   |            | Fasta, Bacteria  | CheckM, Prokka    | ~2 h (2 cores) ~1 h (2 cores) |
 | 2/5  |       | RNA mapping                             |            | Bacterial RNA    | BWA               | ~4-6 h (2 cores)            |
