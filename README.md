@@ -21,7 +21,7 @@ To perform this analysis, I will first check the quality of the reads with FastQ
 
 Some of these analyses will take several hours to perform, for example the metagenome assembly which is expected to take 6 hours. Therefore, I have made a time plan (see section Time plan, table 2) to keep track of deadlines and how much time I have/need for each step in the project. 
 
-![image](https://github.com/user-attachments/assets/2e759c38-7486-4691-b40e-c469a4062a71)
+![image](https://github.com/user-attachments/assets/fe943529-d765-4ba5-bfc5-3bbdc4b9862b)
 
 Figure 1. Analyses workflow for the project. 
 
