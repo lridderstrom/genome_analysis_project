@@ -14,6 +14,5 @@ module load megahit
 # Your commands
 V=/home/liri5181/genome_analysis_project/analyses/dna/02_metagenome_assembly
 
-megahit -1 SRR4342129_1.paired.trimmed.fastq.gz -2 SRR4342129_2.paired.trimmed.fastq.gz --k-list 45,65,85,105,125 --kmin-1pass -t 2 -o $V/megahit_SRR4342129
+megahit -1 SRR4342129_1.paired.trimmed.fastq.gz,SRR4342133_1.paired.trimmed.fastq.gz -2 SRR4342129_2.paired.trimmed.fastq.gz,SRR4342133_2.paired.trimmed.fastq.gz --k-list 65,85,105,125 --kmin-1pass -t 2 -o $V/megahit_output
 
-megahit -1 SRR4342133_1.paired.trimmed.fastq.gz -2 SRR4342133_2.paired.trimmed.fastq.gz --k-list 45,65,85,105,125 --kmin-1pass -t 2 -o $V/megahit_SRR4342133
