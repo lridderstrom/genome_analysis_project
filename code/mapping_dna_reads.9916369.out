@@ -7,3 +7,14 @@
 [BWTIncConstructFromPacked] 40 iterations done. 280329224 characters processed.
 [BWTIncConstructFromPacked] 50 iterations done. 331823240 characters processed.
 [BWTIncConstructFromPacked] 60 iterations done. 377587224 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 418258344 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 454402904 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 486524264 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 515069768 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 540437032 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 562979512 characters processed.
+[bwt_gen] Finished constructing BWT in 125 iterations.
+[bwa_index] 220.18 seconds elapse.
+[bwa_index] Update BWT... 1.88 sec
+[bwa_index] Pack forward-only FASTA... 1.79 sec
+[bwa_index] Construct SA from BWT and Occ... 
