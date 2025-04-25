@@ -1,0 +1,9 @@
+[bwa_index] Pack FASTA... 2.79 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=572495560, availableWord=52282784
+[BWTIncConstructFromPacked] 10 iterations done. 83838648 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 157193944 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 222388328 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 280329224 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 331823240 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 377587224 characters processed.
