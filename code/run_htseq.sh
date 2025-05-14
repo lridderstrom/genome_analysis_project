@@ -26,12 +26,12 @@ run_htseq_counts() {
   
   for BAM in $MAPPING_DIR/$LOCATION/*.bam; do
     BIN_NAME=$(basename "$BAM" _rna.bam)
-    GFF_CLEAN=$ANNOTATED_DIR/$BIN_NAME/${BIN_NAME}_clean.gff
+    GFF_CLEAN=$ANNOTATED_DIR/$BIN_NAME/${BIN_NAME}_new_clean.gff
 	
-    if [[ -f "$GFF_CLEAN" ]]; then
 
+    if [[ -f "$GFF_CLEAN" ]]; then 
       echo "HTSeq-count: $BIN_NAME @ $LOCATION"
-      htseq-count -f bam -r pos -s no -i ID -t CDS "$BAM" "$GFF_CLEAN" > "$COUNTS_DIR/$LOCATION/${BIN_NAME}_counts.txt"
+      htseq-count -f bam -r pos -i ID -t CDS "$BAM" "$GFF_CLEAN" > "$COUNTS_DIR/$LOCATION/${BIN_NAME}_counts.txt"
     else
       echo "⚠️  Can't find the _clean.gff file for $BIN_NAME – skips it."
     fi
