@@ -36,15 +36,16 @@ Since this project is going on for almost the whole course, I have made a time p
 | 3/4  | 7      | Project plan                             | Completed  |                  | Github            | 6 h                         |
 | 7/4  | 3     | Quality check                            | Completed     | Illumina         | FastQC            | ~15 min                     |
 | 7/4  | 2      | RNA reads preprocessing and post quality check |Completed        | Illumina         | Trimmomatic, FastQC | ~15 min/sample ~15 min  |
-| 10/4  |       | Metagenome assembly                     | Ongoing           | Metagenomics     | Megahit           | ~6 h (2 cores)              |
-| 11/4  |       | Evaluation of metagenome assembly       |            | Fasta            | QUAST             | ~45 min (2 cores)           |
-| 25/4 |       | Binning                                  |            | Metagenomics     | Metabat           | < 30 min (2 cores)          |
-| 28/4 |       | Bin quality evaluation and annotation   |            | Fasta, Bacteria  | CheckM, Prokka    | ~2 h (2 cores) ~1 h (2 cores) |
-| 2/5  |       | RNA mapping                             |            | Bacterial RNA    | BWA               | ~4-6 h (2 cores)            |
-| 14/5 |       | Read counting                           |            | Count features   | HTseq             | Variating                    |
-| 15/5 |       | Phylogenetic placement                 |            | MAGs             | GTDB-Tk           | ~45 min (16 cores)          |
-| 16/5 |       | Expression analyses                    |            | Comparison       | DESeq2            | A few minutes               |
-| 23/5 |       | Wiki                                    |            |                  | Github            | 10 h                         |
+| 10/4  | 4      | Metagenome assembly                     | Completed           | Metagenomics     | Megahit           | ~6 h (2 cores)              |
+| 11/4  | 0.5      | Evaluation of metagenome assembly       | Completed           | Fasta            | QUAST             | ~45 min (2 cores)           |
+| 24/4 |  2.75        | Map DNA reads to metagenome          | Completed           | DNA                 | BWA               | ~3 h
+| 25/4 |  0.5     | Binning                                  | Completed           | Metagenomics     | Metabat           | < 30 min (2 cores)          |
+| 28/4 |  0.25, 0.75     | Bin quality evaluation and annotation   | Completed           | Fasta, Bacteria  | CheckM, Prokka    | ~2 h (2 cores) ~1 h (2 cores) |
+| 2/5  |  0.3     | RNA mapping                             | Completed           | Bacterial RNA    | BWA               | ~4-6 h (2 cores)            |
+| 14/5 |  0.3     | Read counting                           | Completed           | Count features   | HTseq             | Variating                    |
+| 15/5 |  1.5     | Phylogenetic placement                 | Completed           | MAGs             | GTDB-Tk           | ~45 min (16 cores)          |
+| 16/5 |       | Expression analyses                    | Ongoing           | Comparison       | Results from HTseq            | A few minutes               |
+| 23/5 |       | Wiki                                    | Ongoing            |                  | Github            | 10 h                         |
 | 28/5 |       | Project presentation                   |            |                  |                   | 10 h (15 min for presenting + questions) |
 
 Table 2. Time plan of the project. 
