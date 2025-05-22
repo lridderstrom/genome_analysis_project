@@ -44,8 +44,8 @@ Since this project is going on for almost the whole course, I have made a time p
 | 2/5  |  0.3     | RNA mapping                             | Completed           | Bacterial RNA    | BWA               | ~4-6 h (2 cores)            |
 | 14/5 |  0.3     | Read counting                           | Completed           | Count features   | HTseq             | Variating                    |
 | 15/5 |  1.5     | Phylogenetic placement                 | Completed           | MAGs             | GTDB-Tk           | ~45 min (16 cores)          |
-| 16/5 |       | Expression analyses                    | Ongoing           | Comparison       | Results from HTseq            | A few minutes               |
-| 23/5 |       | Wiki                                    | Ongoing            |                  | Github            | 10 h                         |
+| 16/5 |   2    | Expression analyses                    | Completed          | Comparison       | Results from HTseq            | A few minutes               |
+| 23/5 |   12    | Wiki                                    | Completed          |                  | Github            | 10 h                         |
 | 28/5 |       | Project presentation                   |            |                  |                   | 10 h (15 min for presenting + questions) |
 
 Table 2. Time plan of the project. 
